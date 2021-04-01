@@ -5,7 +5,14 @@
 }
 
 body {
+   background-image: url(./images/bg-pattern-top-mobile.svg);
+   background-repeat: no-repeat;
    font-family: "Spartan", sans-serif;
+   height: 100vh;
+   margin: auto;
+   width: 85vw;
+   font-size: 15px;
+   text-align: center;
 }
 
 .attribution {
@@ -15,4 +22,46 @@ body {
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+}
+.header {
+   margin-bottom: 40px;
+}
+
+.header__title {
+   color: hsl(300, 43%, 22%);
+   margin-bottom: 0px;
+   margin-top: 60px;
+   padding: 20px;
+}
+
+.header__description {
+   color: hsl(303, 10%, 53%);
+   font-size: 14px;
+   line-height: 1.8em;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0;
+}
+
+.rating__stars {
+   margin-top: 6px;
+   margin-bottom: 12px;
+}
+
+.rating__button {
+   background: hsl(300, 24%, 96%);
+   border-radius: 8px;
+   color: hsl(300, 43%, 22%);
+   font-weight: 700;
+   margin-top: 16px;
+   padding: 10px;
+}
+
+.rating__description {
+   font-size: 13px;
+   margin-top: 0;
+   margin-bottom: 6px;
+}
+img {
+   margin-right: 3px;
 }

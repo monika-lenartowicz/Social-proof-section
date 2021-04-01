@@ -10,7 +10,7 @@
 
   <title>Frontend Mentor | Social proof section</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-  integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,9 +28,24 @@
       </p>
     </header>
     <section class="rating">
-      <p class="rating__stars">Rated 5 Stars in Reviews</p>
-      <p class="rating__stars">Rated 5 Stars in Report Guru</p>
-      <p class="rating__stars">Rated 5 Stars in BestTech</p>
+      <div class="rating__button">
+        <div class="rating__stars">
+          <img src="/images/icon-star.svg">
+          <img src="/images/icon-star.svg">
+          <img src="/images/icon-star.svg">
+          <img src="/images/icon-star.svg">
+          <img src="/images/icon-star.svg">
+        </div>
+        <p class="rating__description">Rated 5 Stars in Reviews</p>
+      </div>
+      <div class="rating__button">
+        <div class="rating__stars"></div>
+        <p class="rating__description">Rated 5 Stars in Report Guru</p>
+      </div>
+      <div class="rating__button">
+        <div class="rating__stars"></div>
+        <p class="rating__description">Rated 5 Stars in BestTech</p>
+      </div>
     </section>
     <section class="opinion">
       <h2 class="opinion__name">Colton Smith </h2>
@@ -38,7 +53,8 @@
       <p class="opinion__description">
         "We needed the same printed design as the one we had ordered a week prior.
         Not only did they find the original order, but we also received it in time.
-        Excellent!"</p>
+        Excellent!"
+      </p>
 
       <h2 class="opinion__name">Irene Roberts </h2>
       <p class="opinion__position">Verified Buyer</p>
@@ -46,8 +62,7 @@
         "Customer service is always excellent and very quick turn around. Completely
         delighted with the simplicity of the purchase and the speed of delivery."</p>
 
-      <h2 class="opinion__name">Anne Wallace
-      </h2>
+      <h2 class="opinion__name">Anne Wallace</h2>
       <p class="opinion__position">Verified Buyer</p>
       <p class="opinion__description">
         "Put an order with this company and can only praise them for the very high
