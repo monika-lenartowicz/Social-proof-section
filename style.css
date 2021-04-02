@@ -56,6 +56,9 @@ body {
    margin-top: 16px;
    padding: 10px;
 }
+.rating__button--last{
+   margin-bottom: 40px;
+}
 
 .rating__description {
    font-size: 13px;
