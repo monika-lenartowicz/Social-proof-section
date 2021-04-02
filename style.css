@@ -8,11 +8,10 @@ body {
    background-image: url(./images/bg-pattern-top-mobile.svg);
    background-repeat: no-repeat;
    font-family: "Spartan", sans-serif;
-   height: 100vh;
-   margin: auto;
-   width: 85vw;
    font-size: 15px;
+   margin: auto;
    text-align: center;
+   width: 90vw;
 }
 
 .attribution {
@@ -23,15 +22,9 @@ body {
 .attribution a {
    color: hsl(228, 45%, 44%);
 }
+
 .header {
    margin-bottom: 40px;
-}
-
-.header__title {
-   color: hsl(300, 43%, 22%);
-   margin-bottom: 0px;
-   margin-top: 60px;
-   padding: 20px;
 }
 
 .header__description {
@@ -43,9 +36,58 @@ body {
    padding: 0;
 }
 
+.header__title {
+   color: hsl(300, 43%, 22%);
+   margin-bottom: 0px;
+   margin-top: 60px;
+   padding: 20px;
+}
+
+.opinion {
+   background: hsl(300, 43%, 22%);
+   border-radius: 8px;
+   color: hsl(0, 0%, 100%);
+   margin-bottom: 16px;
+   padding: 35px;
+}
+
+.opinion__box {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.opinion__image {
+   border-radius: 50%;
+   margin-right: 20px;
+   height: 40px;
+   width: 40px;
+}
+
+.opinion__name {
+   font-size: 12px;
+   letter-spacing: 1px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.opinion__position {
+   color: hsl(333, 80%, 67%);
+   font-size: 12px;
+   letter-spacing: 0.5px;
+   margin-top: 0;
+   text-align: start;
+}
+
+.opinion__description {
+   font-size: 13px;
+   line-height: 1.8em;
+   margin-bottom: 0;
+   text-align: left;
+}
+
 .rating__stars {
-   margin-top: 6px;
    margin-bottom: 12px;
+   margin-top: 6px;
 }
 
 .rating__button {
@@ -56,15 +98,16 @@ body {
    margin-top: 16px;
    padding: 10px;
 }
-.rating__button--last{
-   margin-bottom: 40px;
+.rating__button--last {
+   margin-bottom: 50px;
 }
 
 .rating__description {
    font-size: 13px;
-   margin-top: 0;
    margin-bottom: 6px;
+   margin-top: 0;
 }
+
 img {
    margin-right: 3px;
 }
